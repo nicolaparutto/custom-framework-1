@@ -1,0 +1,42 @@
+/* ==== Debug Borders ==== */
+.r-debug {
+	border: 1px dashed #F7013E;
+}
+
+.b-debug {
+	border: 1px dashed #3A86FF;
+}
+
+.g-debug {
+	border: 1px dashed #29BF12;
+}
+
+.y-debug {
+	border: 1px dashed #FFD700;
+}
+
+.p-debug {
+	border: 1px dashed #911EB4;
+}
+
+/* ==== Buttons ==== */
+.btn {
+	cursor: pointer;
+	border: none;
+
+	&:hover {
+		background-color: #00000037; /* for example */
+	}
+}
+
+.btn-lg {
+	padding: 15px 45px;
+}
+
+.btn-md {
+	padding: 12px 25px;
+}
+
+.btn-sm {
+	padding: 8px 17px;
+}
