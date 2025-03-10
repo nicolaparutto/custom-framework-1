@@ -4,3 +4,25 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* Custom roots for colors*/
+:root {
+	--primary-color: #fca311;
+	--primary-color-dark: #cc8109;
+	--secondary-color: #14213d;
+	--secondary-color-dark: #060a13;
+
+	--success-color: #28a745;
+	--danger-color: #dc3545;
+	--warning-color: #ffc107;
+	--info-color: #17a2b8;
+
+	--light-gray: #e5e5e5;
+	--dark-gray: #aeaeae;
+
+	--c-black: #000;
+	--c-white: #fff;
+
+	--c-dark: #1e1e1e;
+	--c-off-white: #ededed;
+}

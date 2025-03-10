@@ -1,42 +1,37 @@
 /* ==== Debug Borders ==== */
-.r-debug {
-	border: 1px dashed #F7013E;
-}
-
-.b-debug {
-	border: 1px dashed #3A86FF;
-}
-
-.g-debug {
-	border: 1px dashed #29BF12;
-}
-
-.y-debug {
-	border: 1px dashed #FFD700;
-}
-
-.p-debug {
-	border: 1px dashed #911EB4;
-}
+.r-debug {border: 1px dashed #F7013E;}
+.b-debug {border: 1px dashed #3A86FF;}
+.g-debug {border: 1px dashed #29BF12;}
+.y-debug {border: 1px dashed #FFD700;}
+.p-debug {border: 1px dashed #911EB4;}
 
 /* ==== Buttons ==== */
 .btn {
 	cursor: pointer;
 	border: none;
 
-	&:hover {
-		background-color: #00000037; /* for example */
-	}
+	&:hover {background-color: #00000037; /* for example */}
 }
+.btn-lg {padding: 15px 45px;}
+.btn-md {padding: 12px 25px;}
+.btn-sm {padding: 8px 17px;}
 
-.btn-lg {
-	padding: 15px 45px;
-}
+/* ==== Colors ==== */
+.c-primary {color: var(--primary-color);}
+.c-primary-dark {color: var(--primary-color-dark);}
+.c-secondary {color: var(--secondary-color);}
+.c-secondary-dark {color: var(--secondary-color-dark);}
 
-.btn-md {
-	padding: 12px 25px;
-}
+.c-success {color: var(--success-color);}
+.c-danger {color: var(--danger-color);}
+.c-warning {color: var(--warning-color);}
+.c-info {color: var(--info-color);}
 
-.btn-sm {
-	padding: 8px 17px;
-}
+.c-light-gray {color: var(--light-gray);}
+.c-dark-gray {color: var(--dark-gray);}
+
+.c-black {color: var(--c-black);}
+.c-white {color: var(--c-white);}
+
+.c-dark {color: var(--c-dark);}
+.c-off-white {color: var(--c-off-white);}
