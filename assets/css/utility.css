@@ -39,7 +39,7 @@
 .c-off-white {color: var(--c-off-white);}
 
 
-/* ==== Grid System ==== */
+/* ==== Cards Grid System ==== */
 .cards-grid {
 	display: flex;
 	flex-wrap: wrap;
@@ -57,3 +57,15 @@
 .card-text {
 	height: 100px; /* for example */
 }
+
+
+/* ==== Grid System ==== */
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+}
+/* ==== Columns ==== */
+.col-lg-1{width: 100%;} /* customizable */
+.col-lg-2{width: 50%;} /* customizable */
+.col-lg-3{width: 33.3%;} /* customizable */
+.col-lg-4{width: 25%;} /* customizable */
