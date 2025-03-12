@@ -5,6 +5,7 @@
 .y-debug {border: 1px dashed #FFD700;}
 .p-debug {border: 1px dashed #911EB4;}
 
+
 /* ==== Buttons ==== */
 .btn {
 	cursor: pointer;
@@ -15,6 +16,7 @@
 .btn-lg {padding: 15px 45px;}
 .btn-md {padding: 12px 25px;}
 .btn-sm {padding: 8px 17px;}
+
 
 /* ==== Colors ==== */
 .c-primary {color: var(--primary-color);}
@@ -35,3 +37,23 @@
 
 .c-dark {color: var(--c-dark);}
 .c-off-white {color: var(--c-off-white);}
+
+
+/* ==== Grid System ==== */
+.cards-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-col {
+	width: calc(100% / 6);
+	padding: 10px;
+}
+/* ==== Default Cards ==== */
+.card-img {
+	height: 200px; /* for example */
+}
+
+.card-text {
+	height: 100px; /* for example */
+}
